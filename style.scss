@@ -27,6 +27,8 @@ body {
   padding: 0 10px;
   background-colour: #f2f2f2;
   border-radius: 25px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 h1, h2, h3, h4, h5, h6 {
