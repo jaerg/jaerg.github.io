@@ -29,7 +29,7 @@ body {
   border-radius: 25px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
@@ -45,6 +45,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: "Times New Roman", Times, serif;
+  color: $darkerGray;
+  font-weight: bold;
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+  @include mobile {
+    line-height: 1.4;
+	}
   font-size: 30px;
   a {
     color: inherit;
